@@ -23,7 +23,7 @@ public class myCanvas extends View {
         paint.setColor(getResources().getColor(android.R.color.black));
         paint.setStrokeWidth(3);
         paint.setTextSize(100);
-
+//
         canvas.drawRect(50,50,400,800,paint);
         canvas.drawArc(50, 20, 800, 800,0,90,true,paint);
         canvas.drawCircle(600,200,200,paint);
